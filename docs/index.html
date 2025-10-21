@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockVision AI - Intelligent Stock Analysis</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e9ecf1 100%);
+            color: #1a1d23;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0f3460 0%, #1e5a96 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 2px 12px rgba(15, 52, 96, 0.06);
+            border-left: 5px solid #16a34a;
+        }
+
+        .feature-card h3 {
+            color: #0f3460;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+
+        .feature-card p {
+            color: #4a5568;
+            font-size: 0.95rem;
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, #0f3460 0%, #1e5a96 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .cta-section h2 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #16a34a;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #15803d;
+        }
+
+        .tech-stack {
+            margin: 40px 0;
+        }
+
+        .tech-stack h2 {
+            color: #0f3460;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+
+        .tech-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+
+        .tech-badge {
+            background: white;
+            border: 2px solid #0f3460;
+            color: #0f3460;
+            padding: 10px 15px;
+            border-radius: 6px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        footer {
+            background: #0f3460;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📊 StockVision AI</h1>
+        <p>Intelligent Stock Analysis & Predictive Modeling</p>
+    </header>
+
+    <div class="container">
+        <div class="cta-section">
+            <h2>Launch the Interactive Dashboard</h2>
+            <p>Experience real-time stock analysis with AI-powered predictions</p>
+            <a href="https://stockvision-ai.streamlit.app" class="btn">Open Dashboard</a>
+        </div>
+
+        <section>
+            <h2 style="color: #0f3460; font-size: 2rem; margin-bottom: 30px; text-align: center;">Key Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>📈 Real-time Analysis</h3>
+                    <p>Analyze stock performance with up-to-date market data. Get instant insights into price trends, volatility, and risk metrics.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🤖 AI Predictions</h3>
+                    <p>LSTM neural networks predict next-day price movements. GradientBoosting classifies market direction with high confidence.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📊 Portfolio Analytics</h3>
+                    <p>Comprehensive portfolio summaries with performance metrics, correlation analysis, and risk-adjusted returns.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>💹 Backtesting</h3>
+                    <p>Validate strategies against historical data. Compare AI strategy performance against buy-and-hold benchmarks.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>⚡ Fast Processing</h3>
+                    <p>Process multiple tickers simultaneously. Real-time model training and scoring with optimized algorithms.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🎯 Smart Ranking</h3>
+                    <p>Automated ticker ranking based on Sharpe ratio, trend, and drawdown recovery metrics.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="tech-stack">
+            <h2>Technology Stack</h2>
+            <div class="tech-list">
+                <div class="tech-badge">Python</div>
+                <div class="tech-badge">TensorFlow/Keras</div>
+                <div class="tech-badge">Scikit-Learn</div>
+                <div class="tech-badge">Streamlit</div>
+                <div class="tech-badge">Pandas</div>
+                <div class="tech-badge">NumPy</div>
+            </div>
+        </section>
+
+        <section style="margin: 40px 0; padding: 30px; background: white; border-radius: 12px; box-shadow: 0px 2px 12px rgba(15, 52, 96, 0.06);">
+            <h2 style="color: #0f3460; margin-bottom: 20px;">About This Project</h2>
+            <p style="color: #4a5568; margin-bottom: 15px;">
+                StockVision AI is an intelligent stock analysis and prediction system that combines multiple machine learning models to provide actionable insights for investors. The system analyzes historical stock data, trains predictive models, and delivers real-time recommendations.
+            </p>
+            <p style="color: #4a5568; margin-bottom: 15px;">
+                <strong>Key Capabilities:</strong>
+            </p>
+            <ul style="color: #4a5568; margin-left: 20px; margin-bottom: 15px;">
+                <li>Multi-ticker analysis and ranking</li>
+                <li>LSTM-based price prediction</li>
+                <li>GradientBoosting direction classification</li>
+                <li>Portfolio performance backtesting</li>
+                <li>Risk-adjusted metrics calculation</li>
+                <li>Professional dashboard visualization</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 StockVision AI. All rights reserved. | <a href="https://github.com/vardhanreddy369/stockvision-ai" style="color: #16a34a; text-decoration: none;">GitHub Repository</a></p>
+    </footer>
+</body>
+</html>
