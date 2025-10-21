@@ -2,7 +2,11 @@
 
 Intelligent Stock Analysis & Predictive Modeling System
 
-**🌐 [View Live Dashboard](https://stockvision-ai.streamlit.app)** | **📖 [GitHub Pages Site](https://vardhanreddy369.github.io/stockvision-ai)**
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.28.0-FF4B4B.svg)](https://streamlit.io/)
+
+**🌐 [View Live Dashboard](https://stockvision-ai.streamlit.app)** | **📖 [GitHub Pages Site](https://vardhanreddy369.github.io/stockvision-ai)** | **📄 [LICENSE](LICENSE)**
 
 ## Overview
 
@@ -181,16 +185,17 @@ toolbarMode = "minimal"
 
 ## 📝 License
 
-MIT License - feel free to use this project for educational and commercial purposes.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📧 Contact
-
-For questions or feedback, please open an issue on GitHub.
+### MIT License Summary
+- ✅ **Commercial use** - You can use this software for commercial purposes
+- ✅ **Modification** - You can modify the source code
+- ✅ **Distribution** - You can distribute the software
+- ✅ **Private use** - You can use this software privately
+- ⚠️ **Liability** - The software is provided "as is" without warranty
 
 ---
 
 **Built with ❤️ using Python, TensorFlow, and Streamlit**
+
+Copyright © 2025 Vardhan Reddy Gutta. All rights reserved.
