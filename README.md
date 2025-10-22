@@ -6,11 +6,26 @@ Intelligent Stock Analysis & Predictive Modeling System
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28.0-FF4B4B.svg)](https://streamlit.io/)
 
-**🌐 [View Live Dashboard](https://stockvision-ai.streamlit.app)** | **📖 [GitHub Pages Site](https://vardhanreddy369.github.io/stockvision-ai)** | **📄 [LICENSE](LICENSE)**
+---
+
+## 🚀 Live Demo - Click Below!
+
+| 📊 **Interactive Dashboard** | 🌐 **Landing Page** |
+|---|---|
+| **[Open Live Dashboard](https://stockvision-ai-hglrftaeu7t3wxxis5hyjs.streamlit.app)** | **[View Project Site](https://vardhanreddy369.github.io/stockvision-ai/)** |
+| Real-time stock analysis with AI predictions | Project information and features overview |
+
+---
 
 ## Overview
 
 StockVision AI is an advanced stock analysis platform that combines machine learning models with real-time market data to provide actionable insights for investors. The system analyzes multiple tickers simultaneously, trains predictive models, and delivers comprehensive performance analytics.
+
+### ⭐ Quick Links
+- 🎯 **[Live Dashboard](https://stockvision-ai-hglrftaeu7t3wxxis5hyjs.streamlit.app)** - Try it now!
+- 📖 **[Documentation](https://vardhanreddy369.github.io/stockvision-ai/)** - Learn about features
+- 📚 **[Contributing Guide](CONTRIBUTING.md)** - Help improve the project
+- 📄 **[License](LICENSE)** - MIT License
 
 ## 🚀 Features
 
