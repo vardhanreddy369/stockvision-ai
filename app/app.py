@@ -22,10 +22,10 @@ from src.utils import load_stocks, pivot_close
 # ============================================================================
 # CACHING FUNCTIONS - Speed up app loading
 # ============================================================================
-@st.cache_resource
-def load_pipeline_data():
-    """Cache pipeline results for 1 hour"""
-    return run_pipeline()
+@st.cache_data(ttl=3600)  # Cache for 1 hour
+def load_pipeline_data(csv_path, top_k, lookback, epochs):
+    """Cache pipeline results"""
+    return run_pipeline(csv_path, top_k=top_k, lookback=lookback, epochs=epochs)
 
 # ============================================================================
 # PAGE CONFIG
@@ -560,7 +560,7 @@ st.sidebar.markdown(
 # ============================================================================
 with st.spinner("Processing analysis..."):
     try:
-        ranking, results = load_pipeline_data()
+        ranking, results = load_pipeline_data(csv_path, top_k, lookback, epochs)
         pipeline_success = True
     except Exception as e:
         st.error(f"Analysis Error: {str(e)}")
