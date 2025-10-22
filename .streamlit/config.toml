@@ -7,3 +7,18 @@ font = "sans serif"
 
 [client]
 toolbarMode = "minimal"
+
+[logger]
+level = "info"
+
+[server]
+maxUploadSize = 200
+enableXsrfProtection = true
+runOnSave = true
+
+[client]
+showErrorDetails = false
+
+[cache]
+maxEntries = 1000
+ttlSeconds = 3600
