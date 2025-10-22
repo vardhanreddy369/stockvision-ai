@@ -1,4 +1,5 @@
-# StockVision AI
+<img width="2934" height="204" alt="image" src="https://github.com/user-attachments/assets/bcfdd710-c8d8-4960-b8ac-a017110aab32" />
+
 
 **Intelligent Stock Analysis and Predictive Modeling Platform**
 
